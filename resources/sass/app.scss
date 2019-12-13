@@ -1,0 +1,158 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+$fa-font-path: "../webfonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+
+// .router-link-exact-active{
+//     background-color: #137bd1;
+//     color: #fff !important;
+// }
+
+#nav-new{
+    background: #1b919c;
+}
+
+#criminalmImg{
+    height: 30px;
+    width: 30px;
+}
+
+#criminalProfileImg{
+    height: 280px;
+    width: 270px;
+    border: 1px solid #e0e2de;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#criminal-info{
+    margin-top: 50px !important;
+}
+
+.offense-title{
+    float: left;
+}
+
+.add-btnn{
+    margin-top: 5px;
+}
+.editDelete-btnn{
+    margin-left: 10px;
+}
+
+// blink
+.warn-sign {
+    animation: blinker 0.9s linear infinite;
+    color: #cf1d1d;
+   }
+  @keyframes blinker {  
+    50% { opacity: 0; }
+   }
+
+// Front
+#headerTop{
+    background-color: #132940;
+    color: #fff;
+    height: 150px;
+}
+#frontNav{
+    background-color:#1b919c;
+    color: white !important;
+    padding-left: 120px;
+    font-size: large;
+    
+}
+#navbarNavDropdown{
+    font-size: large;
+}
+#mainContent{
+    margin-top: 25px !important;
+}
+#tableHeader{
+    background-color:#1b919c;
+    color: #fff;
+}
+#mostWantedImg{
+    height: 100px;
+    width: 100px;
+}
+.searchInput{
+    margin-top: 20px;
+}
+#contentField{
+    margin-top: 100px;
+}
+.nameBtn{
+    margin-top: 20px;
+    float: right;
+}
+// .search-icon{
+//     height: 30px;
+//     width: 30px;
+// }
+.addressBtn{
+    margin-top: 30px;
+}
+#smText{
+    color: #979393;
+    margin-left: 16px;
+}
+#locationDetailsImg{
+    height: 200px;
+    width: 300px;
+    border: 1px solid #e8d6d6;
+    margin-bottom: 15px;
+}
+.sidebar-cust{
+    background-color: #9eb2ba;
+    padding: 10px;
+}
+
+#footer-cust{
+    background-color: #132940;
+    color: #fff;
+    height: 200px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.icon-img{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+.footer-box{
+    padding-left: 168px !important;
+}
+.searchCriminalmImg{
+    height: 110px;
+    width: 100px;
+}
+.searchResult{
+    line-height: 7px !important;
+}
+.about{
+    background-color: #9eb2ba;
+    margin-top: 90px;
+    padding: 10px;
+}
+.dashElement{
+    margin-top: 30px;
+}
+.mwHeading{
+    color: #E30613;
+    font-weight: bold;
+}
+
+
